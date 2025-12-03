@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/animator/fragment_close_enter.xml",
+        "source": "studio.creche.flutter_haptic-fragment-1.7.1-14:/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/animator/fragment_open_enter.xml",
+        "source": "studio.creche.flutter_haptic-fragment-1.7.1-14:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/animator/fragment_open_exit.xml",
+        "source": "studio.creche.flutter_haptic-fragment-1.7.1-14:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/animator/fragment_fade_exit.xml",
+        "source": "studio.creche.flutter_haptic-fragment-1.7.1-14:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/animator/fragment_close_exit.xml",
+        "source": "studio.creche.flutter_haptic-fragment-1.7.1-14:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/animator/fragment_fade_enter.xml",
+        "source": "studio.creche.flutter_haptic-fragment-1.7.1-14:/animator/fragment_fade_enter.xml"
+    }
+]

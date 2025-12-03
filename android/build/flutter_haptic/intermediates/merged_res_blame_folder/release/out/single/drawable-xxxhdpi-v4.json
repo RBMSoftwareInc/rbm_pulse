@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable-xxxhdpi-v4/ic_call_answer_low.png",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable-xxxhdpi-v4/ic_call_answer_low.png"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable-xxxhdpi-v4/ic_call_answer.png",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable-xxxhdpi-v4/ic_call_answer.png"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable-xxxhdpi-v4/ic_call_decline.png",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable-xxxhdpi-v4/ic_call_decline.png"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable-xxxhdpi-v4/ic_call_decline_low.png",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable-xxxhdpi-v4/ic_call_decline_low.png"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable-xxxhdpi-v4/ic_call_answer_video.png",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable-xxxhdpi-v4/ic_call_answer_video.png"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable-xxxhdpi-v4/ic_call_answer_video_low.png",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable-xxxhdpi-v4/ic_call_answer_video_low.png"
+    }
+]

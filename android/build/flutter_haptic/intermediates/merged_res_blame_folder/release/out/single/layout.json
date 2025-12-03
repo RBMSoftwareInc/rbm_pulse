@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout/custom_dialog.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout/notification_template_part_chronometer.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout/ime_base_split_test_activity.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout/notification_template_part_time.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout/ime_secondary_split_test_activity.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout/ime_secondary_split_test_activity.xml"
+    }
+]

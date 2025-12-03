@@ -1,0 +1,47 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    
+    // Set Flutter properties before evaluation for plugins that need them
+    beforeEvaluate { project ->
+        // Create flutter property map that plugins can access
+        project.ext.flutter = [
+            compileSdkVersion: 34,
+            minSdkVersion: 21,
+            targetSdkVersion: 34,
+            versionCode: 1,
+            versionName: "1.0.0",
+            ndkVersion: "25.1.8937393"
+        ]
+    }
+    
+    // Fix compileSdk for plugins after evaluation
+    afterEvaluate { project ->
+        if (project.hasProperty('android')) {
+            def android = project.android
+            if (android.hasProperty('compileSdk') && android.compileSdk == null) {
+                android.compileSdk = 34
+            }
+            // Also try to set it if it's trying to use flutter.compileSdkVersion
+            try {
+                if (android.compileSdk == null) {
+                    android.compileSdk = 34
+                }
+            } catch (Exception e) {
+                // Ignore if already set
+            }
+        }
+    }
+}
+
+rootProject.buildDir = "../build"
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

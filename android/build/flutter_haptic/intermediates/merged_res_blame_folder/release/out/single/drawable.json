@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable/notification_tile_bg.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable/notification_icon_background.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable/notification_bg.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/drawable/notification_bg_low.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/drawable/notification_bg_low.xml"
+    }
+]

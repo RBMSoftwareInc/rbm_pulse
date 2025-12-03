@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout-v21/notification_template_icon_group.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout-v21/notification_template_custom_big.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout-v21/notification_action_tombstone.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "studio.creche.flutter_haptic-merged_res-25:/layout-v21/notification_action.xml",
+        "source": "studio.creche.flutter_haptic-core-1.13.1-16:/layout-v21/notification_action.xml"
+    }
+]

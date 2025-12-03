@@ -1,0 +1,11 @@
+# Netlify configuration for RBM-Pulse
+
+[build]
+  publish = "build/web"
+  command = "flutter build web --release --dart-define=SUPABASE_URL=$SUPABASE_URL --dart-define=SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY --dart-define=ATTENTION_CHECK_MIN_DAYS=${ATTENTION_CHECK_MIN_DAYS:-10} --dart-define=ATTENTION_CHECK_MAX_DAYS=${ATTENTION_CHECK_MAX_DAYS:-14} --dart-define=AGGREGATION_MIN_GROUP=${AGGREGATION_MIN_GROUP:-10}"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

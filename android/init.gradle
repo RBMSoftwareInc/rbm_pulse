@@ -1,0 +1,12 @@
+// Gradle init script to set Flutter source before plugin applies
+allprojects {
+    afterEvaluate { project ->
+        if (project.path == ":app") {
+            // Set Flutter source before plugin tries to read it
+            if (!project.extensions.findByName("flutter")) {
+                project.extensions.create("flutter", Object)
+            }
+            project.flutter.source = project.file("../..").absolutePath
+        }
+    }
+}
