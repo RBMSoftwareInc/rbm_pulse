@@ -22,18 +22,18 @@ ThemeData buildAppTheme() {
     ),
     scaffoldBackgroundColor: rbmBlack,
     fontFamily: 'Satoshi',
-    textTheme: TextTheme(
+    textTheme: const TextTheme(
       headlineMedium:
           TextStyle(fontWeight: FontWeight.w700, color: Colors.white),
       titleMedium: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
       bodyMedium: TextStyle(color: Colors.white70),
       bodySmall: TextStyle(color: rbmBlack), // <--- for card content
     ),
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
       backgroundColor: rbmRed,
       elevation: 4,
       foregroundColor: Colors.white,
-      titleTextStyle: const TextStyle(
+      titleTextStyle: TextStyle(
           fontWeight: FontWeight.bold, color: Colors.white, fontSize: 22),
     ),
     cardTheme: CardTheme(
@@ -58,14 +58,14 @@ ThemeData buildAppTheme() {
       fillColor: rbmSurface,
       border: OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: rbmRed, width: 2),
+        borderSide: const BorderSide(color: rbmRed, width: 2),
         borderRadius: BorderRadius.circular(15),
       ),
       enabledBorder: OutlineInputBorder(
         borderSide: BorderSide(color: rbmRed.withOpacity(0.2)),
         borderRadius: BorderRadius.circular(15),
       ),
-      labelStyle: TextStyle(color: rbmRed, fontWeight: FontWeight.bold),
+      labelStyle: const TextStyle(color: rbmRed, fontWeight: FontWeight.bold),
     ),
     iconTheme: const IconThemeData(color: rbmRed),
     chipTheme: ChipThemeData(

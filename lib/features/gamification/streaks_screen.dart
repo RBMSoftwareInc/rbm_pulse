@@ -6,7 +6,7 @@ class StreaksScreen extends StatelessWidget {
   const StreaksScreen({super.key, required this.profileId});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(child: Text("Your streaks, badges, level-ups go here!")),
     );
   }

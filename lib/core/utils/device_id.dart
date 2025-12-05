@@ -3,7 +3,7 @@ import 'package:uuid/uuid.dart';
 
 class DeviceId {
   static const _key = 'device_id';
-  static final _uuid = const Uuid();
+  static const _uuid = Uuid();
 
   static Future<String> getOrCreate() async {
     final prefs = await SharedPreferences.getInstance();

@@ -139,7 +139,7 @@ Unified Notifications & Messaging system for RBM Pulse, aligned to role-based ac
 
 ## Database Schema
 
-**File:** `supabase_notifications_messaging_schema.sql`
+**File:** `db/supabase_notifications_messaging_schema.sql`
 
 ### Tables:
 

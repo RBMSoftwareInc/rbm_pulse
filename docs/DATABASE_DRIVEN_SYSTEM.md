@@ -23,8 +23,8 @@ The RBM-Pulse app now supports a fully database-driven survey system with:
 
 ### 1. Run Database Migrations
 ```sql
--- First run: supabase_migration.sql (for pulses table)
--- Then run: supabase_questions_schema.sql (for questions system)
+-- First run: db/supabase_migration.sql (for pulses table)
+-- Then run: db/supabase_questions_schema.sql (for questions system)
 ```
 
 ### 2. Import 750+ Questions

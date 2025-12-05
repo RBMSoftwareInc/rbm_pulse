@@ -19,17 +19,17 @@ class OnboardingScreen extends StatelessWidget {
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(height: 16),
-              Text(
+              const Text(
                 'This app gives our organisation a daily “heartbeat” of how people feel at work using a scientific mood model (valence + energy). '
                 'Your responses are anonymous and used only in aggregate to guide wellbeing decisions, not for performance reviews.',
               ),
               const SizedBox(height: 16),
-              Text(
+              const Text(
                 'You will answer a 20–25 second daily check-in using colours and two sliders. '
                 'Occasionally you may see one extra question from short, validated wellbeing scales.',
               ),
               const SizedBox(height: 16),
-              Text(
+              const Text(
                 'Participation is voluntary. Data is never used to single out individuals; it is about patterns over time so leaders can improve workload, support, and work design.',
               ),
               const Spacer(),

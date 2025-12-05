@@ -190,7 +190,7 @@ Comprehensive admin and leadership control system for RBM Pulse, providing role-
 
 ## Database Schema
 
-**File:** `supabase_admin_schema.sql`
+**File:** `db/supabase_admin_schema.sql`
 
 ### Tables Created:
 1. `organizations` - Multi-tenant organization support

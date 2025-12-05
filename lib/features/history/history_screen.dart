@@ -7,7 +7,7 @@ class HistoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Fetch user past pulses from Supabase
-    return Scaffold(
+    return const Scaffold(
       body: Center(child: Text("Your check-in history goes here!")),
     );
   }
